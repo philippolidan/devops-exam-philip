@@ -15,7 +15,7 @@ COPY . .
 RUN dotnet build "aspnet-core-dotnet-core.csproj" -c Release -o /app/build
 
 FROM build AS publish
-RUN dotnet publish "aspnet-core-dotnet-core.csproj" -c Release -o /app/publish -r linux-64 /p:UseAppHost=false --no-restore
+RUN dotnet publish "aspnet-core-dotnet-core.csproj" -c Release -o /app/publish /p:UseAppHost=false --no-restore
 
 FROM base AS final
 WORKDIR /app

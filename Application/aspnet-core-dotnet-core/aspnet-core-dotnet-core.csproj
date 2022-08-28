@@ -4,6 +4,7 @@
 		<TargetFramework>net6.0</TargetFramework>
 		<AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
 		<RootNamespace>aspnet_core_dotnet_core</RootNamespace>
+		<UserSecretsId>4cf12f1a-c643-406c-9d4a-23290ee52507</UserSecretsId>
 		<DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
 	</PropertyGroup>
 

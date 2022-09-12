@@ -23,4 +23,4 @@ Update Book - Update specific book based on Id
 Delete Book - Delete specific book based on Id
 
 ## Note:
-You can use this URL: https://devops-exam-philip.azurewebsites.net to access the hosted API on azure.
+You can use this URL: https://devops-exam-philip.azurewebsites.net as base url to access the hosted API in azure.
